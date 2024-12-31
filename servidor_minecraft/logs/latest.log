@@ -233,3 +233,6 @@ com.google.gson.JsonSyntaxException: Unknown item 'farmersdelight:straw'
 [31Dec2024 07:24:16.609] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
 [31Dec2024 07:24:16.702] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: memame123321[/127.10.227.240:44315] logged in with entity id 892 at (500.4187302972785, 300.0, 1329.4308177397163)
 [31Dec2024 07:24:16.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: memame123321 joined the game
+[31Dec2024 07:32:59.765] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: memame123321 has reached the goal [Organize-o-Tron]
+[31Dec2024 07:35:47.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: memame123321 has made the advancement [Busy Hands]
+[31Dec2024 07:41:34.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [memame123321: Made memame123321 no longer a server operator]

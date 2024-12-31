@@ -9926,3 +9926,15 @@ com.google.gson.JsonSyntaxException: Unknown item 'farmersdelight:straw'
 [31Dec2024 07:27:15.089] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [31Dec2024 07:29:07.141] [Server thread/DEBUG] [mixin/]: Mixing TankSegmentAccessor from create_enchantment_industry.mixins.json into com.simibubi.create.foundation.blockEntity.behaviour.fluid.SmartFluidTankBehaviour$TankSegment
 [31Dec2024 07:29:07.141] [Server thread/DEBUG] [mixin/]: create_enchantment_industry.mixins.json:TankSegmentAccessor: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[31Dec2024 07:32:15.046] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[31Dec2024 07:32:15.060] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[31Dec2024 07:32:15.313] [Server thread/DEBUG] [mixin/]: Mixing FillingBySpoutMixin from create_enchantment_industry.mixins.json into com.simibubi.create.content.fluids.spout.FillingBySpout
+[31Dec2024 07:32:15.313] [Server thread/DEBUG] [mixin/]: create_enchantment_industry.mixins.json:FillingBySpoutMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[31Dec2024 07:32:59.765] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: memame123321 has reached the goal [Organize-o-Tron]
+[31Dec2024 07:35:47.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: memame123321 has made the advancement [Busy Hands]
+[31Dec2024 07:37:15.041] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[31Dec2024 07:37:15.055] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[31Dec2024 07:37:41.713] [Server thread/DEBUG] [info.u_team.u_team_core.UCoreReference/]: Loaded service info.u_team.useful_backpacks.integration.curios.impl.CuriosBackpackSlotModUtil@5d0f3d5 for class class info.u_team.useful_backpacks.integration.slot_mod.util.BackpackSlotModUtil
+[31Dec2024 07:40:18.790] [Server thread/DEBUG] [info.u_team.u_team_core.UCoreReference/]: Loaded service info.u_team.u_team_core.menu.ForgeFluidContainerMenuDelegator$Factory@5d1ccd06 for class interface info.u_team.u_team_core.menu.FluidContainerMenu$FluidContainerDelegator$Factory
+[31Dec2024 07:40:18.803] [Server thread/DEBUG] [info.u_team.u_team_core.UCoreReference/]: Loaded services [info.u_team.u_team_core.impl.extension.ForgeMenuUtilExtension@378bf2d5] for class interface info.u_team.u_team_core.util.MenuUtil$Extension
+[31Dec2024 07:41:34.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [memame123321: Made memame123321 no longer a server operator]
