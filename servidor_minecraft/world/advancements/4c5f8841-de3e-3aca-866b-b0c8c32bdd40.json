@@ -3965,19 +3965,25 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2024-12-31 07:25:10 +0000"
+    },
+    "done": true
+  },
   "create:funnel": {
     "criteria": {
       "0": "2024-12-31 07:32:14 +0000"
     },
     "done": true
   },
-  "create:spout": {
+  "create:arm_many_targets": {
     "criteria": {
-      "0": "2024-12-31 07:35:54 +0000"
+      "0": "2024-12-31 07:32:59 +0000"
     },
     "done": true
   },
-  "create:arm_many_targets": {
+  "create:arm_blaze_burner": {
     "criteria": {
       "0": "2024-12-31 07:32:59 +0000"
     },
@@ -3989,15 +3995,21 @@
     },
     "done": true
   },
-  "create:arm_blaze_burner": {
+  "create:spout": {
     "criteria": {
-      "0": "2024-12-31 07:32:59 +0000"
+      "0": "2024-12-31 07:35:54 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dripstone_block": {
+  "minecraft:recipes/misc/emerald": {
     "criteria": {
-      "has_pointed_dripstone": "2024-12-31 07:25:10 +0000"
+      "has_emerald_block": "2024-12-31 07:40:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/slime_ball": {
+    "criteria": {
+      "has_slime_block": "2024-12-31 07:40:13 +0000"
     },
     "done": true
   },
