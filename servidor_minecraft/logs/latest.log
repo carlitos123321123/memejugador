@@ -1,349 +1,112 @@
-[31Dec2024 17:31:06.991] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[31Dec2024 17:31:06.996] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.5 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
-[31Dec2024 17:31:08.427] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[31Dec2024 17:31:08.498] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/memejugador/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[31Dec2024 17:31:08.926] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/memejugador/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[31Dec2024 17:31:08.927] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/memejugador/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[31Dec2024 17:31:08.928] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/memejugador/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[31Dec2024 17:31:08.930] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/memejugador/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[31Dec2024 17:31:09.255] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[31Dec2024 17:31:09.255] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[31Dec2024 17:31:09.258] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 9 dependencies adding them to mods collection
-[31Dec2024 17:31:12.412] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[31Dec2024 17:31:12.557] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[31Dec2024 17:31:12.641] [main/WARN] [mixin/]: Reference map 'mixins.protection_pixel.refmap.json' for mixins.protection_pixel.json could not be read. If this is a development environment you can ignore this message
-[31Dec2024 17:31:12.646] [main/WARN] [mixin/]: Reference map 'mixins.create_sa.refmap.json' for mixins.create_sa.json could not be read. If this is a development environment you can ignore this message
-[31Dec2024 17:31:12.777] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
-[31Dec2024 17:31:12.885] [main/WARN] [mixin/]: Reference map 'LesRaisinsAddon_1201.refmap.json' for lradd.mixins.json could not be read. If this is a development environment you can ignore this message
-[31Dec2024 17:31:13.857] [main/WARN] [mixin/]: Error loading class: xfacthd/framedblocks/common/blockentity/doubled/FramedAdjustableDoubleBlockEntity (java.lang.ClassNotFoundException: xfacthd.framedblocks.common.blockentity.doubled.FramedAdjustableDoubleBlockEntity)
-[31Dec2024 17:31:13.857] [main/WARN] [mixin/]: @Mixin target xfacthd.framedblocks.common.blockentity.doubled.FramedAdjustableDoubleBlockEntity was not found createbigcannons.mixins.json:compat.FramedAdjustableDoubleBlockEntityAccessor
-[31Dec2024 17:31:16.045] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
-[31Dec2024 17:31:24.028] [main/WARN] [mixin/]: @Redirect conflict. Skipping securitycraft.mixins.json:camera.ServerPlayerMixin->@Redirect::securitycraft$tick(Lnet/minecraft/server/level/ServerPlayer;DDDFF)V with priority 1100, already redirected by railways-common.mixins.json:conductor_possession.ServerPlayerMixin->@Redirect::railways$securitycraft$tick(Lnet/minecraft/server/level/ServerPlayer;DDDFF)V with priority 1200
-[31Dec2024 17:31:25.821] [modloading-worker-0/INFO] [info.u_team.u_team_core.util.verify.JarSignVerifier/]: Mod usefulbackpacks is signed with a valid certificate.
-[31Dec2024 17:31:26.198] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.TagsFeature
-[31Dec2024 17:31:26.244] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.FixFeature
-[31Dec2024 17:31:26.260] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.BaseFeature
-[31Dec2024 17:31:26.261] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.AEC3DFeature
-[31Dec2024 17:31:27.884] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
-[31Dec2024 17:31:28.298] [modloading-worker-0/INFO] [info.u_team.u_team_core.util.verify.JarSignVerifier/]: Mod uteamcore is signed with a valid certificate.
-[31Dec2024 17:31:28.346] [modloading-worker-0/INFO] [plus.dragons.createdragonlib.DragonLib/]: Create: Dragon Lib 1.4.3 has initialized, ready to support your Create add-ons!
-[31Dec2024 17:31:29.255] [modloading-worker-0/INFO] [Railways/]: Steam 'n' Rails v1.6.7 initializing! Commit hash: 0a7cc000d6c7a1419919bc3e315bc62932287eb9 on Create version: 0.5.1j on platform: Forge
-[31Dec2024 17:31:29.384] [modloading-worker-0/INFO] [create_new_age/]: Hello 1.20.1 Create!
-[31Dec2024 17:31:29.478] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.witch.WitchFleeTarget
-[31Dec2024 17:31:29.484] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.witch.throwing.WitchPotionThrowing
-[31Dec2024 17:31:29.490] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.witch.ThirstyWitches
-[31Dec2024 17:31:29.491] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.witch.darkart.DarkArtWitch
-[31Dec2024 17:31:29.521] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.warden.Warden
-[31Dec2024 17:31:29.524] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.villager.VillagerAttacking
-[31Dec2024 17:31:29.551] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.spider.webber.ThrowingWeb
-[31Dec2024 17:31:29.556] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.spider.Misc
-[31Dec2024 17:31:29.557] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.slime.Slimes
-[31Dec2024 17:31:29.558] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.skeleton.WitherSkeletons
-[31Dec2024 17:31:29.560] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.skeleton.SkeletonFleeTarget
-[31Dec2024 17:31:29.578] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.skeleton.shoot.SkeletonShoot
-[31Dec2024 17:31:29.585] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.shulker.ShulkerBullets
-[31Dec2024 17:31:29.586] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.shulker.shulkerattack.ShulkerAttack
-[31Dec2024 17:31:29.600] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.shulker.ShulkerArmor
-[31Dec2024 17:31:29.602] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.pets.Wolves
-[31Dec2024 17:31:29.616] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.pets.snowgolem.SnowGolems
-[31Dec2024 17:31:29.619] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.pets.IronGolems
-[31Dec2024 17:31:29.634] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.WardenInteractions
-[31Dec2024 17:31:29.651] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.targeting.Targeting
-[31Dec2024 17:31:29.678] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.Spawning
-[31Dec2024 17:31:29.698] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.riding.Riding
-[31Dec2024 17:31:29.703] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.pearler.PearlerMobs
-[31Dec2024 17:31:29.709] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.OpenDoors
-[31Dec2024 17:31:29.743] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.movement.Movement
-[31Dec2024 17:31:29.745] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.miner.MinerMobs
-[31Dec2024 17:31:29.754] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.MeleeAttacking
-[31Dec2024 17:31:29.761] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.leap.Leap
-[31Dec2024 17:31:29.765] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.Jump
-[31Dec2024 17:31:29.774] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.ItemDisruption
-[31Dec2024 17:31:29.779] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.flee.Flee
-[31Dec2024 17:31:29.787] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.fisher.FisherMobs
-[31Dec2024 17:31:29.793] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.breakanger.BreakAnger
-[31Dec2024 17:31:29.799] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.BitingMobs
-[31Dec2024 17:31:29.816] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.avoidexplosion.AvoidExplosions
-[31Dec2024 17:31:29.818] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.anticheese.AntiCheese
-[31Dec2024 17:31:29.824] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.illager.shoot.PillagerShoot
-[31Dec2024 17:31:29.845] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.illager.RavagerFeature
-[31Dec2024 17:31:29.846] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.illager.PillagerFleeTarget
-[31Dec2024 17:31:29.853] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.ghast.GhastShoot
-[31Dec2024 17:31:29.855] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.enderman.getoverhere.GetOverHere
-[31Dec2024 17:31:29.934] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.drowned.DrownedSwimming
-[31Dec2024 17:31:29.937] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.creeper.CreeperSwell
-[31Dec2024 17:31:29.967] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.bugs.silverfish.SilverfishFeature
-[31Dec2024 17:31:29.982] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.blaze.BlazeAttack
-[31Dec2024 17:31:29.992] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.animal.NotTemptedAnimals
-[31Dec2024 17:31:29.995] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.animal.AnimalsGroupFlee
-[31Dec2024 17:31:30.002] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.animal.AnimalScaredAttack
-[31Dec2024 17:31:30.156] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[31Dec2024 17:31:30.162] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[31Dec2024 17:31:30.281] [modloading-worker-0/INFO] [Railways/]: Registered bogey styles from railways
-[31Dec2024 17:31:30.497] [modloading-worker-0/INFO] [Railways/]: Registering data fixers
-[31Dec2024 17:31:30.564] [modloading-worker-0/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 0 Datafixer optimizations took 0 milliseconds
-[31Dec2024 17:31:30.581] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Hex Casting
-[31Dec2024 17:31:30.582] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Oh The Biomes You'll Go
-[31Dec2024 17:31:30.583] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Blue Skies
-[31Dec2024 17:31:30.583] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Twilight Forest
-[31Dec2024 17:31:30.584] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Biomes O' Plenty
-[31Dec2024 17:31:30.585] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Nature's Spirit
-[31Dec2024 17:31:30.586] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Dreams and Desires
-[31Dec2024 17:31:30.587] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Quark
-[31Dec2024 17:31:30.588] [modloading-worker-0/INFO] [Railways/]: Registering tracks for TerraFirmaCraft
-[31Dec2024 17:31:34.304] [main/INFO] [evilcraft/]: 2205 possible Broom base combinations are ready for flying!
-[31Dec2024 17:31:34.716] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.Harbinger.Spore.Sentities.BaseEntities.Infected from class com.Harbinger.Spore.Sentities.BaseEntities.Hyper
-[31Dec2024 17:31:35.433] [modloading-worker-0/INFO] [evilcraft/]: Registered packet handler.
-[31Dec2024 17:31:35.482] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/cyclops-core.json
-[31Dec2024 17:31:35.868] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Found status: UP_TO_DATE Current: 1.19.5 Target: null
-[31Dec2024 17:31:35.871] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [usefulbackpacks] Starting version check at https://api.u-team.info/update/usefulbackpacks.json
-[31Dec2024 17:31:36.161] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [usefulbackpacks] Found status: UP_TO_DATE Current: 2.0.1.124 Target: null
-[31Dec2024 17:31:36.161] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [silentlib] Starting version check at https://raw.githubusercontent.com/SilentChaos512/SilentLib/1.20.x/update.json
-[31Dec2024 17:31:36.174] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [silentlib] Found status: BETA Current: 8.0.0 Target: null
-[31Dec2024 17:31:36.174] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
-[31Dec2024 17:31:36.279] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: BETA Current: 0.6.11-13 Target: null
-[31Dec2024 17:31:36.279] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
-[31Dec2024 17:31:36.445] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.9.12 Target: null
-[31Dec2024 17:31:36.445] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/evilcraft.json
-[31Dec2024 17:31:36.502] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Found status: UP_TO_DATE Current: 1.2.49 Target: null
-[31Dec2024 17:31:36.502] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [libx] Starting version check at https://assets.melanx.de/updates/libx.json
-[31Dec2024 17:31:36.643] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [libx] Found status: UP_TO_DATE Current: 1.20.1-5.0.12 Target: null
-[31Dec2024 17:31:36.643] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [simplytools] Starting version check at https://assets.melanx.de/updates/simply-tools.json
-[31Dec2024 17:31:36.667] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [simplytools] Found status: UP_TO_DATE Current: 1.20.1-2.0.8 Target: null
-[31Dec2024 17:31:36.668] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
-[31Dec2024 17:31:36.713] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 8.8.6 Target: null
-[31Dec2024 17:31:36.714] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Starting version check at https://api.u-team.info/update/uteamcore.json
-[31Dec2024 17:31:36.743] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Found status: AHEAD Current: 5.1.4.336 Target: null
-[31Dec2024 17:31:36.745] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [scalinghealth] Starting version check at https://raw.githubusercontent.com/SilentChaos512/ScalingHealth/1.18/update.json
-[31Dec2024 17:31:36.756] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [scalinghealth] Found status: BETA Current: 8.0.2+9 Target: null
-[31Dec2024 17:31:36.756] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[31Dec2024 17:31:36.913] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.22
-[31Dec2024 17:31:51.962] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:shoot_cool_down for minecraft:living_entity
-[31Dec2024 17:31:51.963] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:melee_cool_down for minecraft:living_entity
-[31Dec2024 17:31:51.964] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:reload_state for minecraft:living_entity
-[31Dec2024 17:31:51.964] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:aiming_progress for minecraft:living_entity
-[31Dec2024 17:31:51.965] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:draw_cool_down for minecraft:living_entity
-[31Dec2024 17:31:51.965] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_aiming for minecraft:living_entity
-[31Dec2024 17:31:51.966] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:sprint_time for minecraft:living_entity
-[31Dec2024 17:31:51.966] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:bolt_cool_down for minecraft:living_entity
-[31Dec2024 17:31:52.081] [modloading-worker-0/INFO] [com.esm.nightmare.NightmareMain/]: Got IMC []
-[31Dec2024 17:31:56.472] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[31Dec2024 17:32:00.401] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/memejugador/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23173!/assets/.mcassetsroot' uses unexpected schema
-[31Dec2024 17:32:00.402] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/memejugador/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23173!/data/.mcassetsroot' uses unexpected schema
-[31Dec2024 17:32:03.740] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/electrum_ingot recipe (createaddition:rolling/electrum_ingot) specified a duration. Durations have no impact on this type of recipe.
-[31Dec2024 17:32:03.786] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:organic_compost_from_body_parts
-com.google.gson.JsonSyntaxException: Unknown item 'farmersdelight:straw'
-	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.3.7-universal.jar%23178!/:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.3.7-universal.jar%23178!/:?]
-	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_44275_(ShapelessRecipe.java:104) ~[server-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:89) ~[server-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:84) ~[server-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23178!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23173!/:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
-	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[31Dec2024 17:32:03.798] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/brass_ingot recipe (createaddition:rolling/brass_ingot) specified a duration. Durations have no impact on this type of recipe.
-[31Dec2024 17:32:03.808] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/iron_ingot recipe (createaddition:rolling/iron_ingot) specified a duration. Durations have no impact on this type of recipe.
-[31Dec2024 17:32:03.813] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/copper_ingot recipe (createaddition:rolling/copper_ingot) specified a duration. Durations have no impact on this type of recipe.
-[31Dec2024 17:32:03.826] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/gold_ingot recipe (createaddition:rolling/gold_ingot) specified a duration. Durations have no impact on this type of recipe.
-[31Dec2024 17:32:03.827] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/straw recipe (createaddition:rolling/straw) specified a duration. Durations have no impact on this type of recipe.
-[31Dec2024 17:32:03.851] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/electrum_plate recipe (createaddition:rolling/electrum_plate) specified a duration. Durations have no impact on this type of recipe.
-[31Dec2024 17:32:03.868] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/copper_plate recipe (createaddition:rolling/copper_plate) specified a duration. Durations have no impact on this type of recipe.
-[31Dec2024 17:32:03.879] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/iron_plate recipe (createaddition:rolling/iron_plate) specified a duration. Durations have no impact on this type of recipe.
-[31Dec2024 17:32:03.902] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/gold_plate recipe (createaddition:rolling/gold_plate) specified a duration. Durations have no impact on this type of recipe.
-[31Dec2024 17:32:03.911] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 37 recipes
-[31Dec2024 17:32:04.111] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4347 advancements
-[31Dec2024 17:32:04.126] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 14 curio slots
-[31Dec2024 17:32:04.133] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
-[31Dec2024 17:32:04.204] [main/INFO] [insane96mcp.insanelib.InsaneLib/]: Reloading InsaneLib JsonFeature Json
-[31Dec2024 17:32:06.761] [main/INFO] [evilcraft/]: 19 Broom modifiers can be applied!
-[31Dec2024 17:32:06.906] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[31Dec2024 17:32:06.907] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[31Dec2024 17:32:06.907] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[31Dec2024 17:32:06.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[31Dec2024 17:32:07.171] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[31Dec2024 17:32:07.200] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[31Dec2024 17:32:07.291] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[31Dec2024 17:32:07.292] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[31Dec2024 17:32:07.292] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[31Dec2024 17:32:07.293] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[31Dec2024 17:32:07.416] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[31Dec2024 17:32:07.576] [Server thread/WARN] [mixin/]: @Redirect conflict. Skipping securitycraft.mixins.json:camera.ChunkMapMixin->@Redirect::securitycraft$getCameraSectionPos(Lnet/minecraft/server/level/ServerPlayer;)Lnet/minecraft/core/SectionPos; with priority 1100, already redirected by railways-common.mixins.json:conductor_possession.ChunkMapMixin->@Redirect::securitycraft$getCameraSectionPos(Lnet/minecraft/server/level/ServerPlayer;)Lnet/minecraft/core/SectionPos; with priority 1200
-[31Dec2024 17:32:09.308] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.projectile.ThrownTrident from class com.Harbinger.Spore.Sentities.Projectile.ThrownSpear
-[31Dec2024 17:32:09.310] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.projectile.ThrownTrident from class com.Harbinger.Spore.Sentities.Projectile.ThrownSpear
-[31Dec2024 17:32:09.311] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.Harbinger.Spore.Sentities.Calamities.Hinderburg from class com.Harbinger.Spore.Sentities.Utility.TumoroidNuke
-[31Dec2024 17:32:09.311] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.Harbinger.Spore.Sentities.Calamities.Hinderburg from class com.Harbinger.Spore.Sentities.Utility.TumoroidNuke
-[31Dec2024 17:32:09.312] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.Harbinger.Spore.Sentities.Calamities.Hinderburg from class com.Harbinger.Spore.Sentities.Utility.TumoroidNuke
-[31Dec2024 17:32:11.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[31Dec2024 17:32:17.339] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Dec2024 17:32:17.362] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Dec2024 17:32:17.367] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Dec2024 17:32:17.380] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Dec2024 17:32:17.389] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Dec2024 17:32:17.400] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Dec2024 17:32:17.407] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Dec2024 17:32:17.438] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Dec2024 17:32:17.456] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Dec2024 17:32:17.475] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Dec2024 17:32:17.482] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Dec2024 17:32:17.501] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Dec2024 17:32:17.546] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Dec2024 17:32:18.415] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Dec2024 17:32:18.541] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[31Dec2024 17:32:19.039] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[31Dec2024 17:32:19.539] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 56%
-[31Dec2024 17:32:19.932] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 8394 ms
-[31Dec2024 17:32:19.934] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (12.626s)! For help, type "help"
-[31Dec2024 17:32:19.995] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[31Dec2024 17:32:20.011] [Server thread/INFO] [cyclopscore/]: Loading infobook /data/cyclopscore/info/test.xml
-[31Dec2024 17:32:20.032] [Server thread/INFO] [evilcraft/]: Loading infobook /data/evilcraft/info/book.xml
-[31Dec2024 17:32:20.075] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:witherer has no valid items
-[31Dec2024 17:32:20.075] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:hungerer has no valid items
-[31Dec2024 17:32:20.075] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:kamikaze has no valid items
-[31Dec2024 17:32:20.078] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:withershield has no valid items
-[31Dec2024 17:32:20.114] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
-[31Dec2024 17:32:20.116] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
-[31Dec2024 17:33:22.570] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
-[31Dec2024 17:33:22.656] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: memame123321[/127.10.227.240:35757] logged in with entity id 891 at (518.1092605250485, 300.0, 1324.6560458421554)
-[31Dec2024 17:33:22.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: memame123321 joined the game
-[31Dec2024 17:33:24.879] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2210ms or 44 ticks behind
-[31Dec2024 17:33:49.932] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@2c2bffda[id=<null>,name=zineac,properties={},legacy=false] (/127.10.227.240:50801) lost connection: Disconnected
-[31Dec2024 17:34:03.415] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: zineac[/127.10.227.240:34789] logged in with entity id 1226 at (171.65165383673698, 69.0, 1039.3201685869776)
-[31Dec2024 17:34:03.427] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: zineac joined the game
-[31Dec2024 17:34:33.535] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: zineac lost connection: Timed out
-[31Dec2024 17:34:33.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: zineac left the game
-[31Dec2024 17:35:10.843] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: zineac[/127.10.227.240:49873] logged in with entity id 1531 at (171.65165383673698, 69.0, 1039.3201685869776)
-[31Dec2024 17:35:10.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: zineac joined the game
-[31Dec2024 17:35:11.131] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:35:11.131] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: RideListLength = 7
-[31Dec2024 17:35:11.132] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: RideList = creeper,spider,skeleton,chicken,pig,skeleton horse,zombie horse,
-[31Dec2024 17:35:11.132] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Jockey List Length = 7
-[31Dec2024 17:35:11.132] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: JockeyList = creeper,skeleton,zombie,pillager,vindicator,witch,zombified piglin,
-[31Dec2024 17:35:11.133] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=233, y=-15, z=1090}
-[31Dec2024 17:35:13.238] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:35:40.935] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: zineac lost connection: Timed out
-[31Dec2024 17:35:40.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: zineac left the game
-[31Dec2024 17:36:18.741] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: zineac[/127.10.227.240:46763] logged in with entity id 1985 at (171.65165383673698, 69.0, 1039.3201685869776)
-[31Dec2024 17:36:18.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: zineac joined the game
-[31Dec2024 17:36:18.872] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:36:18.873] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=107, y=-27, z=993}
-[31Dec2024 17:36:18.877] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:36:18.877] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=187, y=-42, z=985}
-[31Dec2024 17:36:48.833] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: zineac lost connection: Timed out
-[31Dec2024 17:36:48.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: zineac left the game
-[31Dec2024 17:37:22.240] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: zineac[/127.10.227.240:49523] logged in with entity id 2334 at (171.65165383673698, 69.0, 1039.3201685869776)
-[31Dec2024 17:37:22.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: zineac joined the game
-[31Dec2024 17:37:22.474] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:37:22.474] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=154, y=25, z=1009}
-[31Dec2024 17:37:52.332] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: zineac lost connection: Timed out
-[31Dec2024 17:37:52.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: zineac left the game
-[31Dec2024 17:39:49.638] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: zineac[/127.10.227.240:34845] logged in with entity id 2908 at (171.65165383673698, 69.0, 1039.3201685869776)
-[31Dec2024 17:39:49.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: zineac joined the game
-[31Dec2024 17:41:12.626] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:41:12.627] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=143, y=33, z=973}
-[31Dec2024 17:41:53.974] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:41:53.975] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=184, y=-26, z=1025}
-[31Dec2024 17:42:01.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: zineac has made the advancement [Suit Up]
-[31Dec2024 17:42:40.070] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:42:40.071] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=171, y=-32, z=992}
-[31Dec2024 17:42:51.371] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:43:35.874] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:44:24.033] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=182, y=78, z=1024} BlockPos{x=182, y=80, z=1025}
-[31Dec2024 17:44:24.173] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:44:48.620] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:45:04.173] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:45:04.173] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=242, y=-7, z=1071}
-[31Dec2024 17:45:10.472] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:45:28.474] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:45:28.475] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=135, y=-5, z=1056}
-[31Dec2024 17:45:54.522] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:46:02.772] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:46:25.471] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:46:25.472] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=197, y=-30, z=1011}
-[31Dec2024 17:46:30.624] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:46:52.096] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: memame123321 has made the advancement [The Andesite Age]
-[31Dec2024 17:47:15.722] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:47:15.723] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=159, y=31, z=999}
-[31Dec2024 17:48:05.374] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:48:05.375] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=259, y=6, z=1069}
-[31Dec2024 17:48:34.122] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:49:35.919] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: memame123321 has made the advancement [A Pair of Giants]
-[31Dec2024 17:49:43.672] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:50:05.073] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:50:22.970] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:50:38.170] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:50:38.171] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=145, y=-25, z=1035}
-[31Dec2024 17:50:44.571] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:50:44.572] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=201, y=-11, z=1095}
-[31Dec2024 17:50:49.521] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:50:49.521] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=114, y=18, z=1014}
-[31Dec2024 17:51:26.673] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:51:39.171] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:51:39.171] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=183, y=-20, z=1059}
-[31Dec2024 17:51:50.571] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:51:50.572] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=214, y=28, z=969}
-[31Dec2024 17:52:15.871] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:52:59.520] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:52:59.520] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=141, y=-6, z=1063}
-[31Dec2024 17:53:04.619] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:53:04.620] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=182, y=-11, z=994}
-[31Dec2024 17:54:21.121] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:54:21.121] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=190, y=39, z=962}
-[31Dec2024 17:54:51.574] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:55:04.623] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:55:04.624] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=151, y=-5, z=907}
-[31Dec2024 17:55:42.423] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:55:42.424] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=192, y=-28, z=1018}
-[31Dec2024 17:55:47.820] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:55:47.821] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=98, y=-26, z=1036}
-[31Dec2024 17:55:48.420] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:55:51.513] [Worker-Main-4/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:55:57.036] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1125, l='ServerLevel[world]', x=246.70, y=63.27, z=1114.70] died, message: 'Villager was turned into KFC by Fire Dragon'
-[31Dec2024 17:55:59.070] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:55:59.070] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=142, y=11, z=1009}
-[31Dec2024 17:56:00.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: memame123321 has made the advancement [The Copper Age]
-[31Dec2024 17:56:23.822] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:56:23.822] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=190, y=-43, z=1055}
-[31Dec2024 17:56:39.721] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:56:39.721] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=199, y=-30, z=1177}
-[31Dec2024 17:56:48.629] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Mason'/1057, l='ServerLevel[world]', x=351.35, y=78.00, z=1112.76] died, message: 'Mason walked into fire whilst fighting Fire Dragon'
-[31Dec2024 17:57:18.772] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:57:18.785] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/1058, l='ServerLevel[world]', x=316.40, y=75.00, z=1109.44] died, message: 'Villager walked into fire whilst fighting Fire Dragon'
-[31Dec2024 17:57:19.422] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:57:56.871] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:58:00.421] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:58:00.424] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:58:00.771] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:58:03.920] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:58:03.922] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:58:10.172] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:58:10.172] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=417, y=28, z=1257}
-[31Dec2024 17:58:13.071] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 17:58:13.071] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=490, y=30, z=1312}
-[31Dec2024 17:58:50.421] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[31Dec2024 18:00:14.178] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: memame123321 has made the advancement [Suit Up]
+[03Jan2025 00:00:00.540] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=287, y=219, z=1245} BlockPos{x=289, y=219, z=1245}
+[03Jan2025 00:00:00.591] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=287, y=219, z=1245} BlockPos{x=289, y=219, z=1245}
+[03Jan2025 00:00:00.627] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=286, y=219, z=1245} BlockPos{x=289, y=219, z=1245}
+[03Jan2025 00:00:00.689] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=286, y=219, z=1245} BlockPos{x=289, y=219, z=1245}
+[03Jan2025 00:00:00.739] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=286, y=219, z=1245} BlockPos{x=289, y=219, z=1245}
+[03Jan2025 00:00:00.790] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=286, y=219, z=1245} BlockPos{x=289, y=219, z=1245}
+[03Jan2025 00:00:00.826] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=286, y=219, z=1245} BlockPos{x=289, y=219, z=1245}
+[03Jan2025 00:00:00.890] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=286, y=219, z=1244} BlockPos{x=289, y=219, z=1245}
+[03Jan2025 00:00:00.942] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=286, y=219, z=1244} BlockPos{x=289, y=219, z=1245}
+[03Jan2025 00:00:00.992] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=286, y=219, z=1244} BlockPos{x=289, y=219, z=1245}
+[03Jan2025 00:00:01.123] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=287, y=219, z=1244} BlockPos{x=286, y=219, z=1244}
+[03Jan2025 00:00:02.089] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=288, y=219, z=1244} BlockPos{x=287, y=219, z=1244}
+[03Jan2025 00:00:02.140] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=288, y=219, z=1244} BlockPos{x=287, y=219, z=1244}
+[03Jan2025 00:00:02.175] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=288, y=219, z=1244} BlockPos{x=287, y=219, z=1244}
+[03Jan2025 00:00:02.240] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=289, y=219, z=1244} BlockPos{x=287, y=219, z=1244}
+[03Jan2025 00:00:04.988] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=289, y=219, z=1242} BlockPos{x=289, y=219, z=1243}
+[03Jan2025 00:00:05.139] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=289, y=219, z=1242} BlockPos{x=290, y=219, z=1242}
+[03Jan2025 00:00:05.177] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=289, y=219, z=1242} BlockPos{x=290, y=219, z=1242}
+[03Jan2025 00:00:05.239] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=289, y=219, z=1241} BlockPos{x=290, y=219, z=1242}
+[03Jan2025 00:00:05.280] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=289, y=219, z=1241} BlockPos{x=290, y=219, z=1242}
+[03Jan2025 00:00:05.339] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=288, y=219, z=1241} BlockPos{x=290, y=219, z=1242}
+[03Jan2025 00:00:05.380] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=288, y=219, z=1241} BlockPos{x=290, y=219, z=1242}
+[03Jan2025 00:00:05.423] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=288, y=219, z=1241} BlockPos{x=290, y=219, z=1242}
+[03Jan2025 00:00:05.489] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=288, y=219, z=1241} BlockPos{x=290, y=219, z=1242}
+[03Jan2025 00:00:05.538] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=286, y=219, z=1241} BlockPos{x=290, y=219, z=1242}
+[03Jan2025 00:00:05.573] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=286, y=219, z=1241} BlockPos{x=290, y=219, z=1242}
+[03Jan2025 00:00:05.638] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=285, y=219, z=1241} BlockPos{x=290, y=219, z=1242}
+[03Jan2025 00:00:05.675] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=285, y=219, z=1241} BlockPos{x=290, y=219, z=1242}
+[03Jan2025 00:00:05.729] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=285, y=219, z=1241} BlockPos{x=290, y=219, z=1242}
+[03Jan2025 00:00:05.777] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=285, y=219, z=1241} BlockPos{x=290, y=219, z=1242}
+[03Jan2025 00:00:05.825] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=286, y=219, z=1240} BlockPos{x=290, y=219, z=1242}
+[03Jan2025 00:00:05.891] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=286, y=219, z=1240} BlockPos{x=290, y=219, z=1242}
+[03Jan2025 00:00:05.940] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=286, y=219, z=1240} BlockPos{x=290, y=219, z=1242}
+[03Jan2025 00:00:05.993] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=286, y=219, z=1240} BlockPos{x=290, y=219, z=1242}
+[03Jan2025 00:00:06.041] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=286, y=219, z=1240} BlockPos{x=290, y=219, z=1242}
+[03Jan2025 00:00:06.089] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=288, y=219, z=1240} BlockPos{x=290, y=219, z=1242}
+[03Jan2025 00:00:06.139] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=288, y=219, z=1240} BlockPos{x=290, y=219, z=1242}
+[03Jan2025 00:00:06.189] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=289, y=219, z=1240} BlockPos{x=290, y=219, z=1242}
+[03Jan2025 00:00:06.238] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=289, y=219, z=1240} BlockPos{x=290, y=219, z=1242}
+[03Jan2025 00:00:06.277] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=289, y=219, z=1240} BlockPos{x=290, y=219, z=1242}
+[03Jan2025 00:00:06.338] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=289, y=219, z=1240} BlockPos{x=290, y=219, z=1242}
+[03Jan2025 00:00:06.389] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=289, y=219, z=1240} BlockPos{x=290, y=219, z=1242}
+[03Jan2025 00:00:06.430] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=289, y=219, z=1239} BlockPos{x=290, y=219, z=1242}
+[03Jan2025 00:00:06.492] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=289, y=219, z=1239} BlockPos{x=290, y=219, z=1242}
+[03Jan2025 00:00:06.521] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=289, y=219, z=1239} BlockPos{x=290, y=219, z=1242}
+[03Jan2025 00:00:06.588] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=288, y=219, z=1239} BlockPos{x=290, y=219, z=1242}
+[03Jan2025 00:00:06.639] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=288, y=219, z=1239} BlockPos{x=290, y=219, z=1242}
+[03Jan2025 00:00:06.677] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=288, y=219, z=1239} BlockPos{x=290, y=219, z=1242}
+[03Jan2025 00:00:06.740] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=286, y=219, z=1239} BlockPos{x=290, y=219, z=1242}
+[03Jan2025 00:00:06.788] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=286, y=219, z=1239} BlockPos{x=290, y=219, z=1242}
+[03Jan2025 00:00:06.825] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=285, y=219, z=1239} BlockPos{x=290, y=219, z=1242}
+[03Jan2025 00:00:06.889] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=285, y=219, z=1239} BlockPos{x=290, y=219, z=1242}
+[03Jan2025 00:00:06.929] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=285, y=219, z=1238} BlockPos{x=290, y=219, z=1242}
+[03Jan2025 00:00:06.990] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=285, y=219, z=1238} BlockPos{x=290, y=219, z=1242}
+[03Jan2025 00:00:07.039] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=285, y=219, z=1238} BlockPos{x=290, y=219, z=1242}
+[03Jan2025 00:00:07.090] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=285, y=219, z=1238} BlockPos{x=290, y=219, z=1242}
+[03Jan2025 00:00:07.139] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=285, y=219, z=1238} BlockPos{x=290, y=219, z=1242}
+[03Jan2025 00:00:07.175] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=287, y=219, z=1238} BlockPos{x=290, y=219, z=1242}
+[03Jan2025 00:00:07.239] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=287, y=219, z=1238} BlockPos{x=290, y=219, z=1242}
+[03Jan2025 00:00:07.288] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=288, y=219, z=1238} BlockPos{x=290, y=219, z=1242}
+[03Jan2025 00:00:07.339] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=288, y=219, z=1238} BlockPos{x=290, y=219, z=1242}
+[03Jan2025 00:00:07.389] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=289, y=219, z=1238} BlockPos{x=290, y=219, z=1242}
+[03Jan2025 00:00:07.427] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=289, y=219, z=1238} BlockPos{x=290, y=219, z=1242}
+[03Jan2025 00:00:07.489] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=289, y=219, z=1238} BlockPos{x=290, y=219, z=1242}
+[03Jan2025 00:00:07.741] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=288, y=219, z=1237} BlockPos{x=289, y=219, z=1238}
+[03Jan2025 00:00:07.790] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=288, y=219, z=1237} BlockPos{x=289, y=219, z=1238}
+[03Jan2025 00:00:07.839] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=287, y=219, z=1237} BlockPos{x=289, y=219, z=1238}
+[03Jan2025 00:00:07.989] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=285, y=219, z=1237} BlockPos{x=286, y=219, z=1237}
+[03Jan2025 00:00:08.041] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=285, y=219, z=1237} BlockPos{x=286, y=219, z=1237}
+[03Jan2025 00:00:08.093] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=285, y=219, z=1237} BlockPos{x=286, y=219, z=1237}
+[03Jan2025 00:00:08.148] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=285, y=219, z=1237} BlockPos{x=286, y=219, z=1237}
+[03Jan2025 00:00:08.190] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=285, y=219, z=1236} BlockPos{x=286, y=219, z=1237}
+[03Jan2025 00:00:08.239] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=285, y=219, z=1236} BlockPos{x=286, y=219, z=1237}
+[03Jan2025 00:00:08.277] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=285, y=219, z=1236} BlockPos{x=286, y=219, z=1237}
+[03Jan2025 00:00:08.339] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=285, y=219, z=1236} BlockPos{x=286, y=219, z=1237}
+[03Jan2025 00:00:08.373] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=286, y=219, z=1236} BlockPos{x=286, y=219, z=1237}
+[03Jan2025 00:00:08.439] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=286, y=219, z=1236} BlockPos{x=286, y=219, z=1237}
+[03Jan2025 00:00:08.473] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=286, y=219, z=1236} BlockPos{x=286, y=219, z=1237}
+[03Jan2025 00:00:08.541] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=288, y=219, z=1236} BlockPos{x=286, y=219, z=1237}
+[03Jan2025 00:00:08.573] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=288, y=219, z=1236} BlockPos{x=286, y=219, z=1237}
+[03Jan2025 00:00:08.639] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=288, y=219, z=1236} BlockPos{x=286, y=219, z=1237}
+[03Jan2025 00:00:08.688] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=289, y=219, z=1236} BlockPos{x=286, y=219, z=1237}
+[03Jan2025 00:00:08.739] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=289, y=219, z=1236} BlockPos{x=286, y=219, z=1237}
+[03Jan2025 00:00:08.877] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=289, y=219, z=1235} BlockPos{x=290, y=219, z=1236}
+[03Jan2025 00:00:08.929] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=289, y=219, z=1235} BlockPos{x=290, y=219, z=1236}
+[03Jan2025 00:00:08.994] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=289, y=219, z=1235} BlockPos{x=290, y=219, z=1236}
+[03Jan2025 00:00:09.043] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=289, y=219, z=1235} BlockPos{x=290, y=219, z=1236}
+[03Jan2025 00:00:09.095] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=289, y=219, z=1235} BlockPos{x=290, y=219, z=1236}
+[03Jan2025 00:00:09.128] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=289, y=219, z=1235} BlockPos{x=290, y=219, z=1236}
+[03Jan2025 00:00:09.195] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=286, y=219, z=1235} BlockPos{x=290, y=219, z=1236}
+[03Jan2025 00:00:09.224] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=286, y=219, z=1235} BlockPos{x=290, y=219, z=1236}
+[03Jan2025 00:00:09.294] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=285, y=219, z=1235} BlockPos{x=290, y=219, z=1236}
+[03Jan2025 00:00:10.392] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=286, y=219, z=1233} BlockPos{x=289, y=219, z=1233}
+[03Jan2025 00:00:10.441] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=286, y=219, z=1233} BlockPos{x=289, y=219, z=1233}
+[03Jan2025 00:00:10.491] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=286, y=219, z=1233} BlockPos{x=289, y=219, z=1233}
+[03Jan2025 00:00:10.529] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=285, y=219, z=1233} BlockPos{x=289, y=219, z=1233}
+[03Jan2025 00:00:17.138] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=289, y=219, z=1227} BlockPos{x=289, y=219, z=1228}
+[03Jan2025 00:00:17.175] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=289, y=219, z=1227} BlockPos{x=289, y=219, z=1228}
+[03Jan2025 00:00:17.240] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=288, y=219, z=1227} BlockPos{x=289, y=219, z=1228}
+[03Jan2025 00:00:17.290] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=288, y=219, z=1227} BlockPos{x=289, y=219, z=1228}
+[03Jan2025 00:00:17.328] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=288, y=219, z=1227} BlockPos{x=289, y=219, z=1228}
+[03Jan2025 00:00:17.388] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=288, y=219, z=1227} BlockPos{x=289, y=219, z=1228}
+[03Jan2025 00:00:17.428] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=285, y=219, z=1227} BlockPos{x=289, y=219, z=1228}
+[03Jan2025 00:00:17.488] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=285, y=219, z=1227} BlockPos{x=289, y=219, z=1228}
+[03Jan2025 00:02:27.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <memame123321> no hay
+[03Jan2025 00:02:29.943] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <memame123321> xd
+[03Jan2025 00:03:28.179] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <memame123321> cuando
+[03Jan2025 00:03:32.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <memame123321> quito el pacifico?
+[03Jan2025 00:03:39.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Alexpa_jp> lo mas pronto
+[03Jan2025 00:03:41.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Alexpa_jp> xd
+[03Jan2025 00:03:47.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Alexpa_jp> mejor dame 1
+[03Jan2025 00:03:54.279] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Alexpa_jp> te doy un diamante
