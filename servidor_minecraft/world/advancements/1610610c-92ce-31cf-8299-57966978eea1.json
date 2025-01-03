@@ -5104,6 +5104,12 @@
     },
     "done": true
   },
+  "railways:recipes/misc/crafting/fuel_tank": {
+    "criteria": {
+      "has_item": "2025-01-03 02:11:29 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/oak_trapdoor": {
     "criteria": {
       "has_planks": "2025-01-03 01:53:31 +0000"
@@ -5125,6 +5131,12 @@
   "minecraft:recipes/redstone/oak_button": {
     "criteria": {
       "has_planks": "2025-01-03 01:53:31 +0000"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:spirit_taking": {
+    "criteria": {
+      "builtin": "2025-01-03 02:10:05 +0000"
     },
     "done": true
   },
